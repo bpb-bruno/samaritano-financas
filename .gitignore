@@ -25,6 +25,6 @@ Thumbs.db
 .coverage
 htmlcov/
 
-# Node (caso evolua frontend)
+# Node
 node_modules/
 
