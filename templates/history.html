@@ -1,0 +1,26 @@
+{% extends "layout.html" %}
+
+{% block title %} Histórico {% endblock %}
+
+{% block main %}
+    <table class="table table-striped mt-4">
+        <thead>
+            <tr>
+                <th>Símbolo</th>
+                <th>Ações</th>
+                <th>Preço</th>
+                <th>Data da Transação</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for transaction in transactions %}
+                <tr>
+                    <td>{{ transaction.symbol }}</td>
+                    <td>{{ transaction.shares }}</td>
+                    <td>{{ transaction.price | brl }}</td>
+                    <td>{{ transaction.timestamp }}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+{% endblock %}

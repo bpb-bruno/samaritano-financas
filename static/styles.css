@@ -1,0 +1,105 @@
+body {
+    background-color: #0a0a0a;
+    color: #f1f1f1;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav {
+    background-color: #000000 !important;
+    border-bottom: 1px solid #d4af37;
+}
+
+nav .navbar-brand {
+    font-size: xx-large;
+    font-weight: bold;
+    color: #d4af37 !important;
+}
+
+nav .navbar-brand .blue,
+nav .navbar-brand .red,
+nav .navbar-brand .yellow,
+nav .navbar-brand .green {
+    color: #d4af37;
+}
+
+.nav-link {
+    color: #e0e0e0 !important;
+}
+
+.nav-link:hover {
+    color: #d4af37 !important;
+}
+
+.table {
+    color: #f1f1f1;
+    background-color: #1a1a1a;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.table thead th {
+    background-color: #d4af37;
+    color: #000;
+    border: none;
+}
+
+.table td, .table th {
+    border-top: 1px solid #333;
+}
+
+.form-control {
+    background-color: #222;
+    border: 1px solid #444;
+    color: #fff;
+}
+
+.form-control:focus {
+    background-color: #2a2a2a;
+    color: #fff;
+    border-color: #d4af37;
+    box-shadow: 0 0 0 0.2rem rgba(212, 175, 55, 0.25);
+}
+
+.btn-primary {
+    background-color: #d4af37;
+    border-color: #d4af37;
+    color: #000;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background-color: #b8952e;
+    border-color: #b8952e;
+    color: #000;
+}
+
+.alert {
+    background-color: #333;
+    border-color: #d4af37;
+    color: #d4af37;
+}
+
+input.form-control {
+    color: #ffffff !important;
+}
+
+input.form-control::placeholder {
+    color: #888888;
+}
+
+.yellow {
+    color: #d4af37;
+}
+
+.green {
+    color: #ffffff;
+}
+
+.table tbody tr {
+    background-color: #1a1a1a;
+    color: #ffffff;
+}
+.nav-link.active-link {
+    color: #ffc107 !important;
+    font-weight: bold;
+}

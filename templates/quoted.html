@@ -1,0 +1,10 @@
+{% extends "layout.html" %}
+
+{% block title %} Cotação {% endblock %}
+
+{% block main %}
+    <p class="fs-4">
+        Uma cota da ação de <strong>{{ stock.name }} ({{ stock.symbol }})</strong> custa <strong>{{ stock.price | brl }}</strong>.
+    </p>
+    <a href="/quote" class="btn btn-outline-secondary">Procurar outra ação</a>
+{% endblock %}
