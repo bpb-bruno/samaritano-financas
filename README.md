@@ -54,15 +54,15 @@ finance/
 
 ├── app.py # Rotas, regras de negócio e controle da aplicação
 
-├── helpers.py # Funções auxiliares e decoradores
+├── helpers.py → Funções auxiliares e decoradores
 
-├── finance.db # Banco de dados SQLite
+├── finance.db → Banco de dados SQLite
 
-├── templates/ # Templates HTML (Jinja2)
+├── templates/ → Templates HTML (Jinja2)
 
-├── static/ # Arquivos estáticos
+├── static/ → Arquivos estáticos
 
-└── requirements.txt # Dependências do projeto
+└── requirements.txt → Dependências do projeto
 
 
 ---
